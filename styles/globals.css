@@ -69,3 +69,30 @@ body {
     --tw-bg-opacity: 1;
     background-color: rgb(18 18 18 / var(--tw-bg-opacity)) !important;
 }
+
+.into-text{
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.section-title{
+  font-size: 3rem;
+  line-height: 1;
+}
+
+@media (min-width: 1025px) {
+  .car-image-height {
+    height: 500px;
+  }
+}
+
+@media (max-width: 1025px) {
+
+}
+
+.socials .button-border{
+  border-bottom: 1px solid rgba(204, 153, 255);
+  border-radius: 0;
+  padding-bottom: 4px;
+  line-height: 1;
+}

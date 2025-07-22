@@ -87,7 +87,9 @@ body {
 }
 
 @media (max-width: 1025px) {
-
+  .job-list-pad{
+    padding: 0px 0px 0px 17px;
+  }
 }
 
 .socials .button-border{

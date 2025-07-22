@@ -47,6 +47,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 )}
 
                 <Popover.Button>
+                {mounted && (
                   <img
                     className="h-5"
                     src={`/images/${
@@ -58,7 +59,9 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                         ? "cancel.svg"
                         : "cancel-white.svg"
                     }`}
-                  ></img>
+                    alt="menu-icon"
+                  />
+                )}
                 </Popover.Button>
               </div>
             </div>

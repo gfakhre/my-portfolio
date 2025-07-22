@@ -43,7 +43,7 @@ const Resume = () => {
                   mount && theme.theme === "dark" ? "bg-slate-800" : "bg-gray-50"
                 } max-w-4xl p-20 mob:p-5 desktop:p-20 rounded-lg shadow-sm`}
               >
-                <h1 className="text-3xl font-bold">{name}</h1>
+                <h1 className="text-3xl font-bold">{resume.resumeName}</h1>
                 <h2 className="text-xl mt-5">{resume.tagline}</h2>
                 <h2 className="laptop:w-4/5 text-xl mt-5 opacity-50">
                   {resume.description}

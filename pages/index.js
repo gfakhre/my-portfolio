@@ -110,8 +110,8 @@ export default function Home() {
           </div>
 
           <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
-            <h1 className="tablet:m-10 section-title text-bold">Services.</h1>
-            <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
+            <h1 className=" section-title text-bold">Services.</h1>
+            <div className="mt-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
               {data.services.map((service, index) => (
                 <ServiceCard
                   key={index}
@@ -130,8 +130,8 @@ export default function Home() {
             </div>
           )}
           <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
-          <h1 className="tablet:m-10 section-title text-bold">About Me.</h1>
-          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-4/5">
+          <h1 className="section-title text-bold">About Me.</h1>
+          <p className="mt-10 text-xl laptop:text-3xl w-full laptop:w-4/5">
             {data.aboutpara}
             <br />
             <br />

@@ -561,6 +561,20 @@ const Edit = () => {
         {currentTabs === "RESUME" && (
           <div className="mt-10">
             <h1>Main</h1>
+              <div className="mt-5 flex items-center">
+              <label className="w-1/5 text-sx opacity-50">Name</label>
+              <input
+                value={data.resume.resumeName}
+                onChange={(e) =>
+                  setData({
+                    ...data,
+                    resume: { ...data.resume, resumeName: e.target.value },
+                  })
+                }
+                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                type="text"
+              ></input>
+            </div>
             <div className="mt-5 flex items-center">
               <label className="w-1/5 text-sx opacity-50">Tagline</label>
               <input

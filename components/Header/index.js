@@ -119,7 +119,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         )}
       </Popover>
       {mounted && (
-      <div
+      <div style={{ padding: "0 30px" }}
         className={`mt-10 hidden flex-row items-center justify-between sticky ${
            theme === "light" ? "bg-white" : "bg-black"
         } dark:text-white top-0 z-10 tablet:flex`}
